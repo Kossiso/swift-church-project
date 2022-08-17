@@ -1,0 +1,32 @@
+p {
+    color:blanchedalmond;
+    text-align: center;
+    font-size: 1.5em;
+}
+h1, h2 {
+    color: rgb(25, 14, 14);
+    text-align: center;
+    animation-duration: 3s;
+    font-size: 3em;
+    font-style: italic;
+}
+
+img {
+    width: 400px;
+    height: 500px;
+    margin-top: 0;
+    margin-right:10px;
+}
+
+body{
+    background-image: url(/images/C7AEF3EE-E949-4E93-8762-F4668650D912.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a {
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+    text-emphasis:inherit;
+}

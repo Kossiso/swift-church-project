@@ -1,0 +1,106 @@
+:root{
+    --custom-color: rgb(31, 39, 31);
+    --padding: 10px;
+    --medium-font-size: 1em;
+    --big-font-size: 2.5em;
+    --input-padding: 10px 25px;
+    --border-radius: 8px;
+    --margin-bottom: 5px;
+    --margin-top: 10px;
+    --border: 1px solid brown;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Rouge+Script&display=swap');
+body {
+    background-color: darkcyan;
+    background-image: url(/images/BABD9B6B-912D-4F25-8439-F3ABF91EB9E5_4_5005_c.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    color:darkslategray;
+    background-color: aliceblue;
+}
+.form {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    margin-top: var(--margin-top);
+    margin-bottom: var(--margin-bottom);
+    text-align: center;
+ } 
+
+.swift_form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+input {
+    padding: var(--input-padding);
+    border-radius: var(--border-radius);
+    margin-bottom: var(--margin-bottom);
+    width: 100%;
+}
+input::placeholder {
+    margin: auto;
+    color: rgb(70, 50, 0);
+    font-size: var(--medium-font-size);
+}
+input:focus {
+    outline-color: darkgoldenrod; 
+}
+.form_group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.fname {
+    font-size: var(--medium-font-size);
+    color: whitesmoke;
+    font-family:'Noto Sans JP', sans-serif;
+    padding: 10px 0px;
+}
+.groupie {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--margin-top);
+}
+.container{
+    width: 1200px;
+    min-height: 400px;
+    max-width: 100%;
+    margin: 30px auto;
+}
+select{
+    padding: var(--input-padding);
+    border-radius: var(--border-radius);
+    color: darkslateblue
+}
+select:focus{
+    outline-color: darkgoldenrod;
+}
+.btn_submit{
+    margin-top: var(--margin-top);
+    padding: var(--input-padding);
+    border-radius: var(--border-radius);
+    background-color:cadetblue;
+    color:antiquewhite;
+    transition: 3s;
+    font-size: var(--medium-font-size);
+}
+
+.btn_submit:hover{
+    background-color: darkblue;
+    cursor:context-menu;
+}
+@media(max-width:850px){
+    .form{
+        width: 100px;
+    }
+}
